@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 const API_HEADERS = {
   'x-rapidapi-key': '52b878b36075583d2e0649a4ce117ad0',
   'x-rapidapi-host': 'v1.baseball.api-sports.io',
