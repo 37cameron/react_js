@@ -41,13 +41,21 @@ function App() {
       </button>
 
     </form>
+
+
+
+
+    
     <ul>
+
         {list.map((item, index) => (
           <li key={item.listitem} style={{ textDecoration: item.status === "complete" ? "line-through" : "none" }}>
-            {item.listitem} 
+             {item.listitem} 
             <button onClick={() => markComplete(index)} style={{  color: "red"}}>
               X
             </button>
+
+
           </li>
         ))}
       </ul>

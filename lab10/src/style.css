@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  .app-header {
+    background-color: lightgrey;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-form input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .search-form button {
+    padding: 8px 12px;
+  }
+  
+  .book-section {
+    margin-bottom: 30px;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fafafa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .book-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .book-card button {
+    margin-top: auto;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .review-form {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-top: 10px;
+    height: 80px;
+  }
+  .review-form select {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .submit-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .submit-button:hover {
+    background-color: darkgreen;
+  }
+  
+
+
+
+
+  .review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+  
+    .review-item {
+    display: flex;
+
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .review-cover {
+    width: 100px;
+    height: auto;
+  }
+  
+  .review-details {
+    flex: 1;
+
+
+  }
+  
+  .stars {
+    color: gold;
+
+    font-size: 1.2rem;
+  }
+  
+  .app-footer {
+    background-color: lightgray;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+    flex-shrink: 0;
+  }
+  
+
+  input, select, textarea {
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
